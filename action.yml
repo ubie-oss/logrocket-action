@@ -4,13 +4,14 @@ author: "Yuku Kotani"
 inputs:
   api-key:
     required: true
-  release: # change this
+    description: "API key of LogRocket"
+  release:
     required: true
-    description: "input description here"
+    description: "Release version"
   source-map-dir:
-    description: "todo"
+    description: "The directory that contains source maps"
   url-prefix:
-    description: "todo"
+    description: "URL Prefix option"
   dry-run:
     default: false
 
