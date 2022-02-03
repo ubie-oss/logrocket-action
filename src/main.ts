@@ -7,7 +7,7 @@ async function run(): Promise<void> {
     const dryRun = core.getBooleanInput("dry-run");
     const apiKey = core.getInput("api-key", { required: true });
     const release = core.getInput("release", { required: true });
-    const sourceMapDir = core.getInput("source-map-dir");
+    const sourceMapDir = core.getInput("source-map-dirs");
     const urlPrefix = core.getInput("url-prefix");
 
     core.debug(apiKey);
@@ -21,7 +21,7 @@ async function run(): Promise<void> {
         await runUpload({
           apikey: apiKey,
           release: release,
-          paths: sourceMapDir,
+          paths: [sourceMapDir],
           urlPrefix: urlPrefix,
         });
       }

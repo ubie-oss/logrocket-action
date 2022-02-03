@@ -22,5 +22,5 @@ jobs:
       - uses: ./
         with:
           api-key: "fake-key"
-          release: "v1.0..0"
+          release: "v1.0.0"
           dry-run: true

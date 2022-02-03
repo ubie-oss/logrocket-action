@@ -9,7 +9,7 @@ declare module "logrocket-cli/dist/commands/release" {
 
 declare module "logrocket-cli/dist/commands/upload" {
   export function handler(params: {
-    paths: string;
+    paths: string[];
     release: string;
     apikey: string;
     urlPrefix?: string;
