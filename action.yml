@@ -1,5 +1,5 @@
 name: "LogRocket GitHub Actions"
-description: "A wrapper of LogRocket CLI to upload sourcemap."
+description: "LogRocket CLI in GitHub Actions"
 author: "Yuku Kotani"
 inputs:
   api-key:
