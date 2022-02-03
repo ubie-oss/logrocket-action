@@ -1,3 +1,6 @@
+dist/locales
+dist/completion.sh.hbs
+
 # Dependency directory
 node_modules
 

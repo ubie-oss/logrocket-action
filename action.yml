@@ -1,17 +1,19 @@
-name: 'LogRocket GitHub Actions'
-description: 'A wrapper of LogRocket CLI to upload sourcemap.'
-author: 'Yuku Kotani'
+name: "LogRocket GitHub Actions"
+description: "A wrapper of LogRocket CLI to upload sourcemap."
+author: "Yuku Kotani"
 inputs:
   api-key:
     required: true
   release: # change this
     required: true
-    description: 'input description here'
+    description: "input description here"
   source-map-dir:
-    description: 'todo'
+    description: "todo"
   url-prefix:
-    description: 'todo'
+    description: "todo"
+  dry-run:
+    default: false
 
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "node12"
+  main: "dist/index.js"
