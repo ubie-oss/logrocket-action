@@ -21,7 +21,7 @@
     "actions",
     "logrocket"
   ],
-  "author": "Yuku Kotani",
+  "author": "Ubie, Inc.",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0",

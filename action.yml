@@ -1,6 +1,6 @@
 name: "LogRocket GitHub Actions"
 description: "LogRocket CLI in GitHub Actions"
-author: "Yuku Kotani"
+author: "Ubie, Inc."
 inputs:
   api-key:
     required: true
