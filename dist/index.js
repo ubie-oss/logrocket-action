@@ -44,7 +44,7 @@ function run() {
             const dryRun = core.getBooleanInput("dry-run");
             const apiKey = core.getInput("api-key", { required: true });
             const release = core.getInput("release", { required: true });
-            const sourceMapDir = core.getInput("source-map-dirs");
+            const sourceMapDir = core.getInput("source-map-dir");
             const urlPrefix = core.getInput("url-prefix");
             core.debug(apiKey);
             if (!dryRun) {
