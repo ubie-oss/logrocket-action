@@ -24,7 +24,7 @@
   "author": "Ubie, Inc.",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.10.0",
     "logrocket-cli": "^0.12.0"
   },
   "devDependencies": {
